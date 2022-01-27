@@ -1,0 +1,23 @@
+﻿@model IEnumerable<CrowdGod.Model.AnswerModel.AnswerListItem>
+
+<p>
+    <a asp-action="Create" asp-controller="Answer">Create New</a>
+</p>
+<div class="container text-center bg-light">
+    <h1>Answers</h1>
+</div>
+@foreach (var item in Model)
+{
+    <div class="container text-center">
+        <div class="bg-success">
+            @Html.DisplayFor(modelItem => item.Content)
+        </div>
+        @Html.DisplayFor(modelItem => item.CreatedUtc)
+        @Html.ActionLink("Edit", "Edit", new { id = item.AnswerId }) |
+        @Html.ActionLink("Details", "Details", new { id = item.AnswerId  }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.AnswerId  })
+    </div>
+<div>
+    <partial name="_AnswerCreatePartial" model="new CrowdGod.Model.ReplyModel.ReplyCreate { AnswerId = item.AnswerId }" />
+</div>
+}

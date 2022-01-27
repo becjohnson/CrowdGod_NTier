@@ -1,0 +1,17 @@
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\bin\Debug\net6.0\CrowdGod.Model.deps.json
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\bin\Debug\net6.0\CrowdGod.Model.runtimeconfig.json
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\bin\Debug\net6.0\CrowdGod.Model.dll
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\bin\Debug\net6.0\ref\CrowdGod.Model.dll
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\bin\Debug\net6.0\CrowdGod.Model.pdb
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\bin\Debug\net6.0\CrowdGod.Data.dll
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\bin\Debug\net6.0\CrowdGod.Data.pdb
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\obj\Debug\net6.0\CrowdGod.Model.csproj.AssemblyReference.cache
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\obj\Debug\net6.0\CrowdGod.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\obj\Debug\net6.0\CrowdGod.Model.AssemblyInfoInputs.cache
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\obj\Debug\net6.0\CrowdGod.Model.AssemblyInfo.cs
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\obj\Debug\net6.0\CrowdGod.Model.csproj.CoreCompileInputs.cache
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\obj\Debug\net6.0\CrowdGod.Model.csproj.CopyComplete
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\obj\Debug\net6.0\CrowdGod.Model.dll
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\obj\Debug\net6.0\ref\CrowdGod.Model.dll
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\obj\Debug\net6.0\CrowdGod.Model.pdb
+C:\Users\beaut\Desktop\CROWDGOD\CrowdGod\CrowdGod.Model\obj\Debug\net6.0\CrowdGod.Model.genruntimeconfig.cache

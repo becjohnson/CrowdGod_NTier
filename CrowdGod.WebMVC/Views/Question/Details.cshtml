@@ -1,0 +1,25 @@
+﻿@model CrowdGod.Model.QuestionModel.QuestionDetail
+<div class="bg-light container text-center"><h1>Question</h1></div>
+<div>
+    <div class="bg-danger text-center container"><h3>@Html.DisplayFor(model => model.Title)</h3></div>
+    <div class="text-center bg-light"><h4>@Html.DisplayFor(model => model.Content)</h4></div>
+    <div class="container"><h5>@Html.DisplayFor(model => model.CreatedUtc)</h5></div>
+    @if (Model.ModifiedUtc != null)
+    {
+        <div class="container"><h5>@Html.DisplayFor(model => model.ModifiedUtc)</h5></div>
+    }
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new {id = Model.QuestionId }) |
+    <a asp-action="Index" asp-controller="Question">Back to List</a>
+</div>
+<div>
+    <partial name="_AnswerCreatePartial" model="new CrowdGod.Model.AnswerModel.AnswerCreate { QuestionId = Model.QuestionId }" />
+    @Html.ActionLink("Create", "Create", "Answer", new { questionId = Model.QuestionId }, null)
+</div>
+<div>
+    <partial name="_AnswerIndexPartial" model="Model.Answers" />
+</div>
+
+
+

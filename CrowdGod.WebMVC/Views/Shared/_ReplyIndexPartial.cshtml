@@ -1,0 +1,22 @@
+﻿@model IEnumerable<CrowdGod.Model.ReplyModel.ReplyListItem>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <div class="bg-light text-center">
+                @Html.DisplayFor(modelItem => item.Content);
+
+            </div>
+            <div class="bg-light text-center">
+                @Html.DisplayFor(modelItem => item.CreatedUtc);
+            </div>
+        @Html.ActionLink("Edit", "Edit", new { id = item.ReplyId})
+        @Html.ActionLink("Details", "Details", new { id = item.ReplyId })
+        @Html.ActionLink("Delete", "Delete", new { id = item.ReplyId })
+        }
+    </tbody>
+</table>

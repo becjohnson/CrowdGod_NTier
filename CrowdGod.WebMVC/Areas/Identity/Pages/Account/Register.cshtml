@@ -1,0 +1,38 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating">
+                <input asp-for="Input.Email" autocomplete="username" aria-required="true" placeholder="Email" />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-floating">
+                <input asp-for="Input.Password" autocomplete="new-password" aria-required="true" placeholder="Password" />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-floating">
+                <input asp-for="Input.ConfirmPassword" autocomplete="new-password" aria-required="true" placeholder="Confirm Password" />
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <br />
+            <button id="registerSubmit" type="submit" class="login-btn btn-danger">Register</button>
+        </form>
+    </div>
+    <div class="col-md-6 col-md-offset-2">
+    </div>
+</div>
+
+@section Scripts {
+<partial name="_ValidationScriptsPartial" />
+}

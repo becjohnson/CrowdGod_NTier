@@ -1,0 +1,8 @@
+﻿@{
+    ViewData["Title"] = "_SearchPartial";
+}
+
+<form asap-controller="Question" asp-action="SearchIndex" method="get" class="d-flex">
+    <input class="form-control me-2" type="Search" name="searchString"  placeholder="Search questions..." aria-label="Search" />
+    <input class="btn btn-outline-danger" type="submit" value="Filter" />
+</form>
